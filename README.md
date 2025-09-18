@@ -1,0 +1,2 @@
+# cv-portafolio-up2
+ACTIVIDAD 6 - CAMBIOS EN PORTAFOLIO
