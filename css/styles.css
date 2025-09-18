@@ -1,0 +1,98 @@
+/* Tipografía y fondo */
+
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf2f8;
+    /* fondo más suave */
+}
+
+
+/* Encabezados */
+
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #16a085;
+}
+
+
+/* Secciones con bordes redondeados */
+
+section,
+article {
+    background: #fff;
+    border-radius: 10px;
+    margin: 12px;
+    padding: 15px;
+}
+
+
+/* Navegación */
+
+nav {
+    background: #34495e;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #1abc9c;
+    color: white;
+}
+
+
+/* Clase para resaltar */
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+/* Organizar en dos columnas con grid */
+
+.dos-columnas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+
+/* Imágenes tamaño fijo */
+
+img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* Footer */
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+}
